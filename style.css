@@ -125,6 +125,45 @@ main{
     background: rgb(121, 18, 18);
     color: white;
     font-weight: bold;
-    margin-left: 750px;
+    margin-left: 55%;
     margin-top: 50px;
+}
+
+#resultDiv{
+    width: 500px;
+    height: 300px;
+    border: 1px solid rgb(233, 167, 167);
+    position: relative;
+    top: -400px;
+    left: 900px;
+    background: whitesmoke;
+    text-align: center;
+    position: relative;
+}
+
+#resultP{
+    font-size: 50px;
+    font-weight: bold;
+    /* text-align: center; */
+    margin: 20px;
+    text-decoration: underline;
+}
+
+#story{
+    font-size: 20px;
+    text-align: center;
+    /* margin: 20px; */
+}
+
+#reset{
+    position: absolute;
+    bottom: 10px;
+    left: 42%;
+    padding: 10px;
+    background: rgb(121, 18, 18);
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    display: none;
 }
