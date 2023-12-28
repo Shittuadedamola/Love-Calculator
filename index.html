@@ -13,19 +13,22 @@
             <img id="lovesym" src="images/love_symbol-removebg-preview (1).png" alt="">
             <div id="cal">CALCULATOR</div>
         </header>
-        <section id="sect">
-            <input type="text" id="first">
-            <div id="midlove"><img id="sectlove" src="images/white-love-removebg-preview.png" alt=""><div id="with">WITH</div></div>
-            <input type="text" id="second">
-        </section>
+        
+        <div id="mainDiv">
+            <section id="sect">
+                <input type="text" id="first">
+                <div id="midlove"><img id="sectlove" src="images/white-love-removebg-preview.png" alt=""><div id="with">WITH</div></div>
+                <input type="text" id="second">
+            </section>
+    
+            <div id="resultDiv">
+                <h1 id="resultP"></h1>
+                <span id="story"></span>
+                <button onclick="reset()" id="reset">RESET</button>
+            </div>
+        </div>
 
         <button onclick="calc()" id="calc">CALCULATE</button>
-
-        <div id="resultDiv">
-            <h1 id="resultP"></h1>
-            <span id="story"></span>
-            <button onclick="reset()" id="reset">RESET</button>
-        </div>
     </main>
 
 
