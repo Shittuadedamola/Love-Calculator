@@ -8,18 +8,15 @@ body{
     width: 100vw;
     height: 100vh;
     background: url(images/love\ cal\ background.jpeg);
-    align-items: center;
-}
-
-main{
-    width: 100vw;
-    height: 100vh;
-    /* margin: auto; */
-    /* background: url(images/love\ cal\ background.jpeg); */
-    /* background: linear-gradient(to right, red, pink); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+#maiin{
+    width: 100vw;
+    height: 100vh;
+    margin-top: 10px;
 }
 
 #hdr{
@@ -128,7 +125,6 @@ main{
     color: white;
     font-weight: bold;
     margin-left: 45%;
-    /* margin-top: 50px; */
     position: absolute;
     bottom: 10px;
 }
@@ -171,17 +167,14 @@ main{
 #mainDiv{
     display: flex;
     margin-top: 100px;
-    width: 1050px;
     justify-content: space-between;
-    margin-left: 14%;
     height: 600px;
 }
 
 @media (max-width:1024px){
     #mainDiv{
         display: block;
-        margin-left: 21%;
-        margin-top: 20px;
+        margin-left: 210px;
     }
 
     #resultDiv{
@@ -197,48 +190,58 @@ main{
     }
 
     #calc{
-        /* margin-top: 150px; */
+        bottom: 100px;
+    }
+
+    #midlove{
+        width: 300px;
+        left: 150px;
+        top: 95px;
+    }
+    
+    #sectlove{
+        width: 300px;
+    }
+    
+    #with{
+        top: 60px;
+        left: 105px;
+        font-size: 30px;
+    }
+}
+
+@media (max-width:912px){
+    #mainDiv{
+        margin-left: 155px;
+    }
+
+    #calc{
+        margin-left: 41.5%;
+    }
+
+    #story{
+        font-size: 30px;
+    }
+
+    #resultP{
+        font-size: 60px;
     }
 }
 
 @media (max-width:820px){
-    #hdr{
-        margin-left: 19%;
-    }
-
     #mainDiv{
-        display: block;
-        margin-left: 13%;
+        margin-left: 110px;
         margin-top: 50px;
-    }
-
-    #resultDiv{
-        margin-top: 20px;
-        width: 600px;
-        height: 350px;
-    }
-
-    #sect{
-        width: 600px;
-        height: 350px;
     }
 
     #calc{
         margin-left: 40%;
-        /* position: absolute; */
-        /* bottom: 60px; */
     }
 }
 
 @media (max-width:768px){
-    #hdr{
-        margin-left: 18%;
-    }
-
     #mainDiv{
-        display: block;
-        margin-left: 18%;
-        margin-top: 70px;
+        margin-left: 135px;
     }
 
     #resultDiv{
@@ -253,52 +256,51 @@ main{
     }
 
     #calc{
-        /* margin-top: 50px;
-        margin-left: 40%; */
+        bottom: 50px;
+    }
+
+    #midlove{
+        left: 110px;
+        top: 75px;
     }
 }
 
-@media (max-width: 430px){
+@media (max-width: 540px){
     #hdr{
-        margin-left: 7.5%;
         width: 350px;
         height: 200px;
     }
 
     #mainDiv{
-        display: block;
-        margin-left: 13%;
-        margin-top: 50px;
+        margin-left: 70px;
+        margin-top: 10px;
     }
 
     #resultDiv{
-        margin-top: 30px;
-        width: 300px;
-        height: 250px;
+        margin-top: 10px;
+        width: 400px;
+        height: 210px;
     }
 
     #sect{
-        width: 300px;
-        height: 250px;
+        width: 400px;
+        height: 210px;
     }
 
     #calc{
-        /* margin-top: -40px;
-        margin-left: 33%; */
+        margin-left: 37%;
+        bottom: 10px;
     }
 
     #lo{
         width: 150px;
         height: 60px;
         font-size: 40px;
-        position: absolute;
-        left: 10px;
-        top: 10px;
         padding-top: 10px;
     }
     
     #lovesym{
-        width: 110px;
+        width: 100px;
         height: 100px;
     }
     
@@ -306,15 +308,74 @@ main{
         width: 250px;
         height: 60px;
         font-size: 35px;
-        position: absolute;
-        right: 10px;
-        bottom: 10px;
         padding-top: 10px;
     }
 
     #first{
         width: 250px;
         height: 55px;
+    }
+    
+    #midlove{
+        left: 115px;
+        top: 60px;
+    }
+    
+    #sectlove{
+        width: 170px;
+    }
+    
+    #with{
+        top: 35px;
+        left: 57px;
+        font-size: 18px;
+    }
+    
+    #second{
+        width: 250px;
+        height: 55px;
+    }
+
+    #reset{
+        left: 40%;
+    }
+
+    #story{
+        font-size: 20px;
+    }
+
+    #resultP{
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 430px){
+    #hdr{
+        width: 350px;
+        height: 200px;
+    }
+
+    #mainDiv{
+        margin-left: 65px;
+    }
+
+    #resultDiv{
+        width: 300px;
+        height: 250px;
+    }
+
+    #sect{
+        width: 300px;
+        height: 250px;
+    }
+
+    #calc{
+        margin-left: 33%;
+        bottom: 50px;
+    }
+    
+    #lovesym{
+        width: 110px;
     }
     
     #midlove{
@@ -331,22 +392,26 @@ main{
         left: 70px;
         font-size: 20px;
     }
-    
-    #second{
-        width: 250px;
-        height: 55px;
+
+    #reset{
+        left: 38%;
+    }
+}
+
+@media (max-width: 414px){
+    #mainDiv{
+        margin-left: 55px;
     }
 }
 
 @media (max-width: 390px){
     #hdr{
-        margin-left: 11.5%;
         width: 300px;
         height: 180px;
     }
 
     #mainDiv{
-        margin-left: 12%;
+        margin-left: 48px;
         margin-top: 30px;
     }
 
@@ -355,38 +420,25 @@ main{
     }
 
     #calc{
-        /* position: absolute; */
+        bottom: 20px;
     }
 
     #lo{
-        width: 150px;
         height: 50px;
         font-size: 35px;
-        position: absolute;
-        left: 10px;
-        top: 10px;
         padding-top: 5px;
     }
     
     #lovesym{
         width: 100px;
-        height: 100px;
         top: 40px;
         left: 110px;
     }
 }
 
 @media (max-width: 375px){
-    #hdr{
-        margin-left: 10%;
-        width: 300px;
-        height: 180px;
-    }
-
     #mainDiv{
-        margin-left: 13%;
         margin-top: 20px;
-        width: 200px;
     }
 
     #resultDiv{
@@ -401,35 +453,24 @@ main{
     }
 
     #reset{
-        left: 37%;
+        left: 36%;
     }
 
     #calc{
-        /* position: absolute; */
         bottom: 8px;
-        margin-left: 30%;
-    }
-
-    #lo{
-        width: 150px;
-        height: 50px;
-        font-size: 35px;
-        position: absolute;
-        left: 10px;
-        top: 10px;
-        padding-top: 5px;
+        margin-left: 34%;
+        width: 120px;
+        height: 40px;
+        font-size: 15px;
     }
     
     #lovesym{
-        width: 100px;
-        height: 100px;
-        top: 40px;
-        left: 110px;
+        width: 90px;
+        height: 90px;
     }
 
     #resultP{
         font-size: 40px;
-        margin: 20px;
         margin-top: 10px;
     }
     
@@ -455,7 +496,6 @@ main{
 
 @media (max-width: 360px){
     #hdr{
-        margin-left: 8%;
         width: 300px;
         height: 180px;
     }
