@@ -125,8 +125,7 @@ body{
     color: white;
     font-weight: bold;
     margin-left: 45%;
-    position: absolute;
-    bottom: 10px;
+    margin-top: 40px;
 }
 
 #resultDiv{
@@ -168,7 +167,6 @@ body{
     display: flex;
     margin-top: 100px;
     justify-content: space-between;
-    height: 600px;
 }
 
 @media (max-width:1024px){
@@ -190,7 +188,7 @@ body{
     }
 
     #calc{
-        bottom: 100px;
+        margin-left: 43%;
     }
 
     #midlove{
@@ -255,10 +253,6 @@ body{
         height: 300px;
     }
 
-    #calc{
-        bottom: 50px;
-    }
-
     #midlove{
         left: 110px;
         top: 75px;
@@ -289,7 +283,7 @@ body{
 
     #calc{
         margin-left: 37%;
-        bottom: 10px;
+        margin-top: 10px;
     }
 
     #lo{
@@ -371,7 +365,7 @@ body{
 
     #calc{
         margin-left: 33%;
-        bottom: 50px;
+        margin-top: 30px;
     }
     
     #lovesym{
@@ -419,10 +413,6 @@ body{
         left: 38%;
     }
 
-    #calc{
-        bottom: 20px;
-    }
-
     #lo{
         height: 50px;
         font-size: 35px;
@@ -457,7 +447,7 @@ body{
     }
 
     #calc{
-        bottom: 8px;
+        margin-top: 10px;
         margin-left: 34%;
         width: 120px;
         height: 40px;
@@ -522,9 +512,8 @@ body{
     }
 
     #calc{
-        position: absolute;
-        bottom: 20px;
-        margin-left: 30%;
+        margin-top: 20px;
+        margin-left: 33%;
     }
 
     #lo{
