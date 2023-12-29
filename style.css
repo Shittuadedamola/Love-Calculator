@@ -8,12 +8,13 @@ body{
     width: 100vw;
     height: 100vh;
     background: url(images/love\ cal\ background.jpeg);
+    align-items: center;
 }
 
 main{
     width: 100vw;
     height: 100vh;
-    margin: auto;
+    /* margin: auto; */
     /* background: url(images/love\ cal\ background.jpeg); */
     /* background: linear-gradient(to right, red, pink); */
     background-position: center;
@@ -127,7 +128,9 @@ main{
     color: white;
     font-weight: bold;
     margin-left: 45%;
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    position: absolute;
+    bottom: 10px;
 }
 
 #resultDiv{
@@ -194,7 +197,7 @@ main{
     }
 
     #calc{
-        margin-top: 150px;
+        /* margin-top: 150px; */
     }
 }
 
@@ -222,8 +225,8 @@ main{
 
     #calc{
         margin-left: 40%;
-        position: absolute;
-        bottom: 60px;
+        /* position: absolute; */
+        /* bottom: 60px; */
     }
 }
 
@@ -250,8 +253,8 @@ main{
     }
 
     #calc{
-        margin-top: 50px;
-        margin-left: 40%;
+        /* margin-top: 50px;
+        margin-left: 40%; */
     }
 }
 
@@ -280,8 +283,8 @@ main{
     }
 
     #calc{
-        margin-top: -40px;
-        margin-left: 33%;
+        /* margin-top: -40px;
+        margin-left: 33%; */
     }
 
     #lo{
@@ -352,7 +355,7 @@ main{
     }
 
     #calc{
-        position: absolute;
+        /* position: absolute; */
     }
 
     #lo{
@@ -402,7 +405,7 @@ main{
     }
 
     #calc{
-        position: absolute;
+        /* position: absolute; */
         bottom: 8px;
         margin-left: 30%;
     }
